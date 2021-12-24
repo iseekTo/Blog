@@ -37,6 +37,7 @@ import { ReactUtterances } from './ReactUtterances'
 
 import styles from './styles.module.css'
 
+// When need, when open.
 // const Code = dynamic(() =>
 //   import('react-notion-x').then((notion) => notion.Code)
 // )
