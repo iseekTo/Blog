@@ -1,0 +1,24 @@
+{
+  "name": "Tomoe",
+  "short_name": "Tomoe",
+  "icons": [
+    {
+      "src": "/tomoe-16x16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "/tomoe-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/tomoe-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    }
+  ],
+  "theme_color": "#F898B9",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
