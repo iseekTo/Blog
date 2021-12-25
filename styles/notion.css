@@ -126,21 +126,20 @@
 }
 
 .notion-hr {
-  margin: 2em 0;
   border-color: rgba(255, 255, 255, 0.1);
 }
 
 @media only screen and (max-width: 920px) {
   .index-page.notion-page {
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
 }
 
 @media only screen and (max-width: 720px) {
   .notion-page {
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
 }
 
@@ -166,7 +165,6 @@
 .notion-title {
   display: block;
   text-align: center;
-  margin-top: 30px;
 }
 .notion-app {
   transition: background 250ms ease-in-out;
