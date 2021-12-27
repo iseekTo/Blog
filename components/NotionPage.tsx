@@ -12,7 +12,7 @@ import { PageBlock } from 'notion-types'
 import { Tweet, TwitterContextProvider } from 'react-static-tweets'
 
 // core notion renderer
-import { NotionRenderer, Code, Collection, CollectionRow } from 'react-notion-x'
+import { NotionRenderer, Collection, CollectionRow } from 'react-notion-x'
 
 // utils
 import { getBlockTitle } from 'notion-utils'
@@ -38,9 +38,9 @@ import { ReactUtterances } from './ReactUtterances'
 import styles from './styles.module.css'
 
 // When need, when open.
-// const Code = dynamic(() =>
-//   import('react-notion-x').then((notion) => notion.Code)
-// )
+const Code = dynamic(() =>
+  import('react-notion-x').then((notion) => notion.Code)
+)
 //
 // const Collection = dynamic(() =>
 //   import('react-notion-x').then((notion) => notion.Collection)
