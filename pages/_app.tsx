@@ -40,6 +40,9 @@ import { bootstrap } from 'lib/bootstrap-client'
 import { fathomId, fathomConfig } from 'lib/config'
 import * as Fathom from 'fathom-client'
 
+// Analystics
+import BaiduAnalysis from 'components/BaiduAnalysis'
+
 if (typeof window !== 'undefined') {
   bootstrap()
 }
@@ -63,5 +66,10 @@ export default function App({ Component, pageProps }) {
     }
   }, [])
 
-  return <Component {...pageProps} />
+  return (
+    <>
+      <BaiduAnalysis />
+      <Component {...pageProps} />
+    </>
+  )
 }

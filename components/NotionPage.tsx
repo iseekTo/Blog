@@ -35,9 +35,6 @@ import { Footer } from './Footer'
 import { GitHubShareButton } from './GitHubShareButton'
 import { ReactUtterances } from './ReactUtterances'
 
-// Analystics
-import BaiduAnalysis from './BaiduAnalysis'
-
 import styles from './styles.module.css'
 
 // When need, when open.
@@ -221,8 +218,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
       </Head>
 
       <CustomFont site={site} />
-
-      <BaiduAnalysis />
 
       {isLiteMode && <BodyClassName className='notion-lite' />}
 
