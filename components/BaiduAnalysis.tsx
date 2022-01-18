@@ -1,14 +1,11 @@
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 import Script from 'next/script'
+import { useLoaded } from 'utils/hooks'
 
 const BaiduAnalysis: React.FC = () => {
-  const isLoaded = useRef(false)
+  const isLoaded = useLoaded()
 
-  useEffect(() => {
-    isLoaded.current = true
-  }, [])
-
-  if (isLoaded.current) {
+  if (isLoaded) {
     return null
   }
 
